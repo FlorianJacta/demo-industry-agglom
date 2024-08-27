@@ -10,7 +10,5 @@ In this demo, you can explore LQs and CLQs for different industries and counties
 
 ## How to use
 
-1. Download the "Proximity-Adjusted LQ.csv" dataset from [here](https://www.statsamerica.org/downloads/Proximity-Adjusted-LQ.zip).
-2. Place "Proximity-Adjusted LQ.csv" in ./data.
-3. Install requirements using: `pip install -r requirements.txt`
-4. Run src/main.py (`python src/main.py`).
+1. Install requirements using: `pip install -r requirements.txt`
+2. Run src/main.py (`python src/main.py`).
