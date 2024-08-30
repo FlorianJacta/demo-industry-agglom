@@ -20,4 +20,7 @@ RUN pip install -r requirements.txt
 # Copy the application source code.
 COPY src .
 
+# Dataset download from a remote server.
+RUN curl --output data/Proximity-Adjusted-LQ.parquet "https://sataipydemosl87mw.blob.core.windows.net/datasets/Proximity-Adjusted-LQ.parquet"
+
 CMD ["taipy", "run", "--no-debug", "--no-reloader", "main.py", "-H", "0.0.0.0", "-P", "5000"]
